@@ -18,15 +18,12 @@ public class Hashsetdemo {
         //union
         set.addAll(set2);
         System.out.println("union :" + set);
-
         //intersection
         set.retainAll(set2);
         System.out.println("insertion :" + set);
-
         //differnce
       //  set.removeAll(set2);
         //System.out.println("differnce :" + set);
-
         //subset
         set.containsAll(set2);
         System.out.println("subset :" + set);
