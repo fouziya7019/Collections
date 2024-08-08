@@ -35,11 +35,5 @@ public class Linked {
 
       System.out.println(list1.getFirst());
         System.out.println(list1.getLast());
-
-
-
-
-
-
     }
 }
