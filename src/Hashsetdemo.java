@@ -27,9 +27,5 @@ public class Hashsetdemo {
         //subset
         set.containsAll(set2);
         System.out.println("subset :" + set);
-
-
-
-
     }
 }
