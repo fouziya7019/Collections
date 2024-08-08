@@ -16,10 +16,7 @@ public class Queue {
         System.out.println(p1);
         // To get head element
         System.out.println(p1.peek());
-
-
         System.out.println(p1.element());
-
         Iterator i1=p1.iterator();
         while (i1.hasNext()) {
             System.out.println(i1.next());

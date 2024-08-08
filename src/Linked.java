@@ -32,8 +32,7 @@ public class Linked {
         list1.contains("school");
         System.out.println(list1);
         list1.descendingIterator();
-
-      System.out.println(list1.getFirst());
+        System.out.println(list1.getFirst());
         System.out.println(list1.getLast());
     }
 }
