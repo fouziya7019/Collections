@@ -27,8 +27,8 @@ public class MapDemo {
         for( Object l: map.values()){
             System.out.println(l);
         }
-        for( Object i: map.keySet()){
-            System.out.println(i+" "+map.get(i));
+                       for( Object i: map.keySet()){
+                                         System.out.println(i+" "+map.get(i));
         }
     }
 }
