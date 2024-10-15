@@ -18,7 +18,7 @@ public class LoginPage {
     }
     public void setLoginPage(String un,String pwd){
         untbx.sendKeys(un);
-        pwtb.sendKeys(pwd);
+        pwtb.sendKeys(pwd)  ;
         lgbtn.click();
     }
 

@@ -11,7 +11,8 @@ public class ValidLogin {
 
         WebDriver driver =new ChromeDriver();
         driver.get("https://test.salesforce.com/");
-        LoginPage l=new LoginPage(driver);
-        l.setLoginPage("avinash.r@zucitech.com.ztdev1","Zucitech@12");
+        LoginPage login=new LoginPage(driver);
+        login.setLoginPage("avinash.r@zucitech.com.ztdev1","Zucitech@12")  ;
+       // driver.quit()   ;
     }
 }
